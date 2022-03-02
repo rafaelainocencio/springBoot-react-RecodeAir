@@ -13,10 +13,15 @@ function Navbar() {
                 </button>
                 <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
                     <div className="navbar-nav">
+                        
                         <Link to="/destinos">
                             <a className="nav-item nav-link">Destinos</a>
                         </Link>
+
+                        {/* <Link to="/sobre">
                         <a className="nav-item nav-link">Sobre nós</a>
+                        </Link> */}
+                        
                         <Link to="/form">
                             <a className="nav-item nav-link">CRUD</a>
                         </Link>
