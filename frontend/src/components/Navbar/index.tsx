@@ -5,7 +5,7 @@ function Navbar() {
     return (
         <nav className="navbar navbar-expand-lg navbar-light ">
             <Link to="/">
-                <a className="navbar-brand" href="#">RecodeAir</a>
+                <a className="navbar-brand">RecodeAir</a>
             </Link>
             <div className='opcoes'>
                 <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Alterna navegação">
@@ -14,11 +14,11 @@ function Navbar() {
                 <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
                     <div className="navbar-nav">
                         <Link to="/destinos">
-                            <a className="nav-item nav-link" href="#">Destinos</a>
+                            <a className="nav-item nav-link">Destinos</a>
                         </Link>
-                        <a className="nav-item nav-link" href="#">Sobre nós</a>
+                        <a className="nav-item nav-link">Sobre nós</a>
                         <Link to="/form">
-                            <a className="nav-item nav-link" href="#">CRUD</a>
+                            <a className="nav-item nav-link">CRUD</a>
                         </Link>
 
                     </div>

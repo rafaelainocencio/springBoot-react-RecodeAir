@@ -1,5 +1,5 @@
 import DCard from "../../components/DestinosCard";
-import destinosCard from "../../components/DestinosCard";
+
 
 
 

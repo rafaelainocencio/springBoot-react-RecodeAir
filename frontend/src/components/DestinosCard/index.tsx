@@ -16,7 +16,7 @@ function DCard() {
                 <h5 className="card-title">{destino.destiny}</h5>
                 <p className="card-text">{destino.description}</p>
                 <h4>R$1000</h4>
-                <a href="#" className="btn btn-primary">Comprar</a>
+                <button className="btn btn-primary">Comprar</button>
             </div>
         </div>
     )
